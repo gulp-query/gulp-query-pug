@@ -3,13 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
+  "author": "Marat Nuriev",
+  "email": "nurieff@gmail.com",
+  "repository": "https://github.com/gulp-query/qulp-query-pug",
   "license": "MIT",
   "dependencies": {
     "gulp": "^3.9.1",
+    "gulp-query": "github:gulp-query/gulp-query",
     "gulp-pug": "^3.3.0"
   }
 }
