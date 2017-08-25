@@ -5,11 +5,19 @@
   "main": "index.js",
   "author": "Marat Nuriev",
   "email": "nurieff@gmail.com",
-  "repository": "https://github.com/gulp-query/qulp-query-pug",
   "license": "MIT",
+  "repository": "https://github.com/gulp-query/gulp-query-pug",
+  "keywords": [
+    "pug",
+    "jade",
+    "html",
+    "gulp",
+    "gulp-query",
+    "gulp-query-plugin"
+  ],
   "dependencies": {
     "gulp": "^3.9.1",
-    "gulp-query": "github:gulp-query/gulp-query",
+    "gulp-query": "^1.0.0",
     "gulp-pug": "^3.3.0"
   }
 }
