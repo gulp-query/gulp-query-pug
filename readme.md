@@ -15,7 +15,7 @@ Paste the code into your `gulpfile.js` and configure it
 let build = require('gulp-query')
   , pug = require('gulp-query-pug')
 ;
-cocktail(function (query) {
+build((query) => {
     query.plugins([pug])
       .pug('src/views/*.pug','html/','tpl')
 
